@@ -1,0 +1,72 @@
+body {font-size: 17pt; 
+    margin: 0;
+    padding: 0;
+    background-image: url("http://www.agence51.fr/images/template/accueil-agence51.jpg");
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover;
+    }
+
+p {color : white;}
+
+
+
+a.survol {
+  position:relative;
+  
+  text-decoration: none;
+}
+a:hover.survol {
+  text-decoration: none;
+  background: none;
+}
+a.survol span {display: none;}
+
+a:hover.survol span {
+  display: block;
+  position: relative; 
+
+}
+
+td {
+    width: 15em;
+    height: 2em;
+    text-align: center;
+    vertical-align: middle;
+ }
+ th {
+    width: 15em;
+    height: 2em;
+    text-align: center;
+    vertical-align: middle;
+ }
+td:hover { background: #44fa44;
+	   color: white; }
+th:hover { background: #44fa44;
+	   color: white; }
+
+.img:hover {image-rendering: }
+tr.pair { background: #bbbbbb; }
+tr.impair { background: #888888; }
+.titre{color: red;
+	}
+
+
+.nos_devoirs{
+			font-size: 100%;
+			text-decoration: none;
+			background:pink;
+			width: 44em;
+			border :1pt dashed black;
+      
+			}
+
+.ip{
+  color:white;
+}
+.zoo{
+  color:white;
+}
+
+.blue{
+  color:pink;
+}
